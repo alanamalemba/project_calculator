@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: url(./background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.body {
+  width: 45vh;
+  height: 80vh;
+  border: solid black 4px;
+  border-radius: 16px;
+  background: black;
+  color: #fff;
+  box-shadow: 0 0 50px #000;
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  background-color: rgb(75, 72, 72);
+  border-radius: 14px;
+  padding: 5%;
+  text-align: right;
+  box-shadow: inset 0 0 10px #e6fdf881;
+}
+
+.quiz {
+  font-size: 2em;
+  overflow-x: scroll;
+}
+.answer {
+  right: 5%;
+  font-size: 3em;
+  overflow-x: scroll;
+}
+
+.answerEquals {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+.input {
+  height: 55.7vh;
+}
+
+.input-controls {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4%;
+}
+
+.clear,
+.backspace,
+.youtube {
+  width: 30%;
+  height: 48px;
+  color: white;
+  border-radius: 16px;
+  font-size: 2em;
+  font-weight: 550;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px grey;
+}
+
+.clear {
+  background-color: orange;
+}
+
+.backspace {
+  background-color: #ccc;
+  color: black;
+}
+
+.backspace svg {
+  height: 20vh;
+}
+.youtube {
+  background-color: red;
+}
+
+.youtube a {
+  height: 34px;
+}
+.svg-icon {
+  height: 35px;
+}
+
+.input-operations {
+  height: 48vh;
+  padding: 0.2vh 0;
+}
+
+.operand,
+.operator,
+#equals {
+  font-size: 2em;
+  width: fit-content;
+  display: inline-block;
+  width: 10vh;
+  height: 10vh;
+  margin-left: 0.5vh;
+  margin-top: 1.5vh;
+  border-radius: 20vh;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh;
+  box-shadow: 0 0 4px #ccc;
+}
+
+.operand {
+  background-color: rgb(75, 72, 72);
+}
+
+.operator {
+  background-color: rgb(126, 189, 19);
+}
+
+#equals {
+  background-color: blue;
+}
+.btn:hover {
+  color: #ff04c9;
+}
+.btn:active {
+  transform: scale(0.9);
+  box-shadow: inset 0 0 10px #e6fdf881;
+}

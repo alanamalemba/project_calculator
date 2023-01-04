@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="body">
+        <div class="screen">
+          <div class="quiz"></div>
+          <div class="answer"></div>
+        </div>
+        <div class="input">
+          <div class="input-controls">
+            <div id="clear" class="btn clear">AC</div>
+            <div id="backspace" class="btn backspace">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-backspace"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.83 5.146a.5.5 0 0 0 0 .708L7.975 8l-2.147 2.146a.5.5 0 0 0 .707.708l2.147-2.147 2.146 2.147a.5.5 0 0 0 .707-.708L9.39 8l2.146-2.146a.5.5 0 0 0-.707-.708L8.683 7.293 6.536 5.146a.5.5 0 0 0-.707 0z"
+                />
+                <path
+                  d="M13.683 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-7.08a2 2 0 0 1-1.519-.698L.241 8.65a1 1 0 0 1 0-1.302L5.084 1.7A2 2 0 0 1 6.603 1h7.08zm-7.08 1a1 1 0 0 0-.76.35L1 8l4.844 5.65a1 1 0 0 0 .759.35h7.08a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1h-7.08z"
+                />
+              </svg>
+            </div>
+            <div class="btn youtube">
+              <a href="https://www.youtube.com/@AlanAmalemba"
+                ><svg
+                  class="svg-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="input-operations">
+            <div class="btn operand" id="7">7</div>
+            <div class="btn operand" id="8">8</div>
+            <div class="btn operand" id="9">9</div>
+            <div class="btn operator" id="&divide">&divide;</div>
+            <div class="btn operand" id="4">4</div>
+            <div class="btn operand" id="5">5</div>
+            <div class="btn operand" id="6">6</div>
+            <div class="btn operator" id="&times">&times;</div>
+            <div class="btn operand" id="1">1</div>
+            <div class="btn operand" id="2">2</div>
+            <div class="btn operand" id="3">3</div>
+            <div class="btn operator" id="&minus">&minus;</div>
+            <div class="btn operand" id=".">.</div>
+            <div class="btn operand" id="0">0</div>
+            <div class="btn" id="equals">=</div>
+            <div class="btn operator" id="&plus">&plus;</div>
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; bottom: 0.5vh; font-weight: 549">
+        &copy; Alan Amalemba 2023
+      </div>
+    </div>
+  </body>
+</html>
